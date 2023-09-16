@@ -1,0 +1,18 @@
+R1: SE Pele = pelo ENTÃO Tipo = mamífero.
+R2: SE Leite = sim ENTÃO Tipo = mamífero.
+R3: SE Pele = penas ENTÃO Tipo = ave.
+R4: SE Voa = sim E Ovos = sim ENTÃO Tipo = ave.
+R6: SE Tipo = mamífero E Come = carne E Dentes = pontiagudos E Garras = sim E Olhos = frontais ENTÃO Carnivoro = sim.
+R7: SE Tipo = mamífero E Casco = sim ENTÃO Ungulado = sim.
+R8: SE Tipo = mamífero E Ruminante = sim E Dedos = pares ENTÃO Ungulado = sim.
+R9: SE Carnivoro = sim E Cor = amarelo_tostado E Manchas = manchas_escuras ENTÃO Animal = leopardo.
+R10: SE Carnivoro = sim E Cor = amarelo_tostado E Manchas = listras_pretas ENTÃO Animal = tigre.
+R11: SE Ungulado = sim E Pernas = longas E Pescoço = comprido E Cor = amarelo_tostado E Manchas = manchas_escuras ENTÃO Animal = girafa.
+R12: SE Ungulado = sim E Cor = branca E Manchas = listras_pretas ENTÃO Animal = zebra.
+R13: SE Tipo = ave E Voa = nao E Pernas = longas E Pescoço = comprido E Cor = preto_e_branco ENTÃO Animal = avestruz.
+R14: SE Tipo = ave E Voa = nao E Nada = sim E Cor = preto_e_branco ENTÃO Animal = pinguim.
+R15: SE Tipo = ave E Bom_voador = sim ENTÃO Animal = albatroz.
+R16: SE Tipo = ave E Corpo = arredondado E Penas_densas = sim E Voa = nao E Doméstico = sim ENTÃO Animal = galinha.
+R17: SE Tipo = ave E Pernas = longas E Pescoço = comprido E Cauda = curta E Cor = rosa ENTÃO Animal = flamingo.
+R18: SE Tipo = mamífero E Voa = sim ENTÃO Animal = morcego.
+Animal

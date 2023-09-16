@@ -1,0 +1,11 @@
+R1: SE Dor_de_cabeça = Sim, ENTÃO Diagnóstico = Receitar_analgésico
+R2: SE Dor_de_cabeça = Sim E Garganta_inflamada = Sim E Tosse = Sim, ENTÃO Diagnóstico = Gripe
+R3: SE Cansaço = Sim E Dor_de_cabeça = Sim, ENTÃO Diagnóstico = Mononucleose_infecciosa
+R4: SE Cansaço = Sim E Garganta_inflamada = Sim, ENTÃO Diagnóstico = Amigdalite
+R5: SE Cansaço = Sim, ENTÃO Diagnóstico = Estresse
+R6: SE Fadiga = Sim E Dor_de_cabeça = Sim E Dores_no_corpo = Sim E Ocasionais_dores_garganta = Sim E Ocasionais_tosse = Sim, ENTÃO Diagnóstico = Covid19
+R7: SE Coriza = Sim E Espirro = Sim, ENTÃO Diagnóstico = Rinite_Alérgica
+R8: SE Dor_de_cabeça = Sim E Coriza = Sim, ENTÃO Diagnóstico = Sinusite
+R9: SE Dor_de_cabeça = Sim E Cansaço = Sim E Dores_no_corpo = Sim, ENTÃO Diagnóstico = Dengue
+R10: SE Dor_de_cabeça = Sim E Cansaço = Sim E Dores_nas_juntas = Sim, ENTÃO Diagnóstico = Chicungunha
+Diagnóstico

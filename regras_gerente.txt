@@ -1,0 +1,9 @@
+R1: SE Renda = 0_15k, ENTÃO Risco = Alto
+R2: SE Renda = 15k_35k E Dívida = Alta E Hist_Créd = Desc, ENTÃO Risco =Alto.
+R3: SE Renda = 15k_35k E Dívida = Alta E Hist_Créd = Boa, ENTÃO Risco = Moderado.
+R4: SE Renda = 15k_35k E Dívida = Alta E Hist_Créd = Ruim, ENTÃO Risco = Alto.
+R5: SE Renda = 15k_35k E Dívida = Baixa, ENTÃO Risco = Moderado.
+R6: SE Renda = Acima_35k E Hist_Créd = Boa, ENTÃO Risco = Baixo.
+R7: SE Renda = Acima_35k E Hist_Créd = Ruim, ENTÃO Risco = Moderado.
+R8: SE Renda = Acima_35k E Hist_Créd = Desc., ENTÃO Risco = Baixo.
+Risco
